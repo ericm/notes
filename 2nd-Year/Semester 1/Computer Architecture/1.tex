@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\begin{document}
+{\centering
+\section*{Computer Architecture}
+\section*{Lecture 1}
+\indent\today
+}
+
+\subsection*{Abstraction}
+\begin{itemize}
+    \item You'd interface with a `black box' by using a `knob of sorts' 
+\end{itemize}
+\subsection*{Performance}
+Performance is affected by:
+\begin{itemize}
+    \item Response time: \textit{The execution of a specific task}
+    \item Throughput
+\end{itemize}
+\textrm{Power of a processor can be calculated using: \newline}
+Power = Capacitive Power * Voltage^2 \newline
+\begin{itemize}
+    \item Elapsed time
+        \begin{itemize}
+            \item Total to complete task
+            \item Determines System Performance
+        \end{itemize}
+    \item CPU time: Time spent ot do each job
+\end{itemize}
+
+\subsection*{CPU Clocking}
+\begin{itemize}
+    \item CPU exec time for program:
+    \begin{equation}
+        Cpu time = Clock cycles \times Cycle time = \frac{CPU clock cycles}{Clock rate}
+    \end{equation}
+\end{itemize}
+\subsection*{Instruction Count \& Cycles Per Instruction (\textit{CPI})}
+\begin{equation}
+    ClockCycles = InstructCount \times CyclesPerInstruction
+\end{equation}
+\begin{equation}
+    CPUTime=InstructCount \times CPI \times ClockCycleTime
+\end{equation}
+\begin{equation}
+    CPUTime = \frac{InstructCount \times CPI}{Clock Rate}
+\end{equation}
+
+\end{document}
