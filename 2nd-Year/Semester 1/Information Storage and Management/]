@@ -1,0 +1,12 @@
+\documentclass[12pt]{article}
+\begin{document}
+{\centering
+\section*{Information Storage and Management}
+\section*{Lecture 2}
+\indent\today
+}
+
+\subsection*{Labs}
+Will commence next week on Thursdays: G.24 and G.21
+
+\end{document}

@@ -1,0 +1,94 @@
+\documentclass[12pt]{article}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=SQL,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\begin{document}
+{\centering
+\section*{Information Storage and Management}
+\section*{Lecture 2}
+\indent\today
+}
+
+\subsection*{Labs}
+Will commence next week on Thursdays: G.24 and G.21
+
+\subsection*{Tables}
+A typcial DB has:
+\begin{itemize}
+    \item Name
+    \item Columns (With types)
+    \item Attributes
+\end{itemize}
+\subsection*{Primary Key}
+A \textbf{Primary Key} must be unique, constain values and cannot be NULL
+\newline
+\newline
+Usage of primary keys:
+\begin{lstlisting}
+    CREATE TABLE Customers (
+        ID INT NOT NULL, 
+        NAME VARCHAR (20) NOT NULL, 
+        AGE INT NOT NULL, 
+        ADDRESS CHAR (25) , 
+        SALARY DECIMAL (18, 2), 
+        PRIMARY KEY (ID, NAME) -- See multiple attributes in prim key 
+    )
+\end{lstlisting}
+\subsection*{Foreign Key}
+A \textbf{Foreign Key} is a way of linking a table to another using the other table's Primary Key. Example:
+\begin{lstlisting}
+    CREATE TABLE Orders (
+        OrderID int NOT NULL,
+        OrderNumber int NOT NULL,
+        PersonID int,
+        PRIMARY KEY (OrderID),
+        FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+    ); 
+\end{lstlisting}
+\subsection*{Data Types}
+\begin{itemize}
+    \item Numbers: \texttt{INT, LONGINT, TINYINT, NUMERIC, FLOAT, DOUBLE} \newline
+        \textit{Int is by default implemented to be 32 bit. Use it by default for ints to reduce memory usage}
+    \item \texttt{NOT NULL} vs \texttt{NULL}: whether to allow empty value.
+    \item Strings: \texttt{VARCHAR} etc.
+    \item Others include Dates, etc
+\end{itemize}
+\subsection*{Aggregation} 
+\begin{itemize}
+    \item \texttt{AVG}: 
+        \begin{lstlisting}
+    SELECT AVG (salary) FROM instructor WHERE deptname= `Comp. Sci.'
+        \end{lstlisting}
+    \item Grouping: 
+        \begin{lstlisting}
+    SELECT ID
+    FROM instructor
+    GROUP BY deptname -- Will make the select query inside this group
+        \end{lstlisting}
+\end{itemize}
+\subsection*{Modifying tables}
+\begin{lstlisting}
+    DROP TABLE whatever -- Deletes
+    ALTER TABLE whatever ADD COLUMN idss
+\end{lstlisting}
+\end{document}
