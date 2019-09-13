@@ -1,0 +1,94 @@
+\documentclass[12pt]{article}
+\usepackage{listings}
+\usepackage{color}
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\begin{document}
+{\centering
+\section*{Algorithms and Data Structures}
+\section*{Lecture 2}
+\indent\today
+}
+
+\subsection*{Examples}
+Sort 2 words alphabetically and then check if theyre identical
+\begin{itemize}
+    \item Replace characters \textit{Score out already read characters}
+    \item        
+        \begin{lstlisting}
+    for each el1 in str1 
+        found = false 
+        i = 0
+        while not found and i < len(str2)
+            if el1 == str2[i]
+                delete str2[i] = None
+                found = true
+            index++
+            if not found
+                return false
+            return true
+       \end{lstlisting} 
+   \item This will take O(n^2)  (\textit{Not efficient})
+\end{itemize}
+Better way:
+\begin{itemize}
+    \item Use a dictionary count
+    \item Create dictionary
+    \item \begin{lstlisting}
+    for each el1 in str1
+        if el1 is key in dict
+            dict[el1] += 1
+        else
+            dict[el1] = 1
+    for el2 in str2
+        if el2 not in dict
+            return falses
+        else
+            dict[el2] -= 1
+    for key in dict
+        if dict[key] != 0
+            return false
+    return true
+        \end{lstlisting}
+    \end{itemize}
+    Count method:
+    \begin{itemize}
+        \item Create list of chars in alphabet of size 10,000
+        \item \begin{lstlisting}
+    for el1 in str1
+        list[el1]++
+    for el2 in str2
+        list[el2]--
+    for each el in list
+        if el != 0
+            return false
+    return true
+    \end{lstlisting}
+\end{itemize}
+Sort method:
+    \begin{itemize}
+        \item \begin{lstlisting}
+    sort(str1)
+    sort(str2)
+    i = 0
+    while i < len(str1)
+        if str1[i] != str2[i]
+            return false
+    return true
+        \end{lstlisting}
+    \end{itemize}
+\end{document}
