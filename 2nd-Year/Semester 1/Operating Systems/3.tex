@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage{listings}
+\begin{document}
+{\centering
+\section*{Operating Systems}
+\section*{Lecture 3}
+\indent\today
+}
+
+\subsection*{Linux Introduction}
+\begin{itemize}
+    \item Multi user OS
+    \item It's just the kernel
+    \item Actually GNU/Linux
+\end{itemize}
+\subsection*{Command structure}
+\begin{itemize}
+    \item \texttt{<command> <flags> <args>}
+    \item Example: \texttt{ls -al dir}
+    \item \texttt{cat filename}: puts stdin into filename
+\end{itemize}
+\subsection*{Piping}
+\begin{itemize}
+    \item Write stdout to file: \texttt{>}
+    \item Write stdout to file (Append): \texttt{>>}
+    \item Take stdin from file: \texttt{<}
+\end{itemize}
+\subsection*{Commands}
+\begin{itemize}
+    \item \texttt{ls -R}: list recursively
+    \item \texttt{tee}: Read from stdin and write to stdout and files at the same time. Example: \texttt{echo `cone' | tee file}
+\end{itemize}
+
+\end{document}
