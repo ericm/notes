@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\begin{document}
+{\centering
+\section*{Computer Architecture}
+\section*{Lecture 2}
+\indent\today
+}
+
+\subsection*{Instruction Set}
+\begin{itemize}
+    \item The instrcutions fed to a CPU
+    \item Used for arithmetic / logical, memory + port transfers and flow control.
+\end{itemize}
+\subsection*{Instruction set design}
+Approaches: \textbf{RISC} (\textit{Reduced Instruction Set Computer}) and \textbf{CISC} (\textit{Complex Instruction Set Computer})
+\subsection*{RISC}
+\begin{itemize}
+    \item Simple instructions that only take about 1 clock cycle
+\end{itemize}
+\subsection*{CISC}
+\begin{itemize}
+    \item Complex multi clock instructions.
+    \item x86 etc
+\end{itemize}
+
+\subsection*{MIPS}
+\begin{itemize}
+    \item Has 32x32-bit registers.
+    \item Used for Values of resultsm arguments, temps, global pointer, stack pointer, program counter, etc.
+\end{itemize}
+
+\subsection*{Integer arithmetic}
+\begin{itemize}
+    \item \textit{MIPS} can process both integer and floating point numbers
+    \item It has both 32 and 64 nit architectures.
+    \item When a 32-bit integer is \textbf{signed}, \textbf{the most significant bit} (\textit{bit 31}) is used to denote negativity.
+    \item 2's compliment is used to invert the most significant bit and invert the entire number (\textit{see notes})
+\end{itemize}
+
+\subsection*{MIPS Instructions}
+\begin{itemize}
+    \item Can only have \textbf{3 operands}.
+    \item Eg: \textit{add \$0 \$S0 \$S2}
+\end{itemize}
+
+\subsection*{MIPS R-format instructions}
+\textit{R-formated} just means that the instruction is encoded using a format which means:
+\newline
+The op takes 6 bits, the registers then take 5 bits, the shift takes 5 bits, and the funct takes 6 bits
+\newline
+\newline
+\href{https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats}{See wiki for more info.}
+
+\subsection*{Memory Operands}
+\begin{itemize}
+    \item MIPS memory is \textbf{byte-addressed}. You can load single bytes from memory.
+\end{itemize}
+
+\end{document}
