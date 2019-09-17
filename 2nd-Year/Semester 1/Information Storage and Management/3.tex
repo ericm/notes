@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=SQL,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\begin{document}
+{\centering
+\section*{Information Storage and Management}
+\section*{Lecture 3}
+\indent\today
+}
+
+\subsection*{Relational Algebra}
+\begin{itemize}
+    \item A way of representing the query's operation plan
+    \item A query applies to \textbf{relational instances}
+\end{itemize}
+\subsection*{Projection \pi}
+\begin{itemize}
+    \item Deletes elements not in  \textit{distribution} list
+\end{itemize}
+\newline
+\newline
+Example: \pi_{sname,rating} (S2)
+
+\subsection*{Selection \sigma}
+\begin{itemize}
+    \item Selects rows that satisfy the \textit{selection condition}
+    \item Result can be used in another operation.
+\end{itemize}
+Example: \sigma_{rating>8} (S2)
+\subsection*{Union \cup{}}
+\begin{itemize}
+    \item Must have same comlumns
+    \item Returns same amout of columns
+\end{itemize}
+Example: S2\cup{} S1 \rightarrow{} id, name, rating
+\newline
+\newline
+\textit{See notes for implementation}
+
+\subsection*{Joins}
+\begin{itemize}
+    \item Joins add rows to a table
+\end{itemize}
+\end{document}
