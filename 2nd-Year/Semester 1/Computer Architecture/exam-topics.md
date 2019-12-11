@@ -1,5 +1,5 @@
 # Things to study
-- Binary representation of FP.
+- Binary representation of FP. https://www.wikihow.com/Convert-a-Number-from-Decimal-to-IEEE-754-Floating-Point-Representation
 
 - Pipelining
 
