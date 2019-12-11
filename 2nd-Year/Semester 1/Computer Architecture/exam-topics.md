@@ -28,8 +28,8 @@
  - Know a lot about bpipelining (architecture diagrams etc) (and how to improve it)
  
  - Know memory stuff:
-  - Write through: Update the lower level memory (such as ram and vram) when data is "written" to cache.
+    - Write through: Update the lower level memory (such as ram and vram) when data is "written" to cache.
   
-  - Write-back: Only write to slower memory when whole block is replaced
+    - Write-back: Only write to slower memory when whole block is replaced
   
  - Caching methods and replacement policies
