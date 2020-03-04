@@ -12,7 +12,15 @@ Modules topic weighting is changing this year and so past exams different.
 
 - Covers psychological areas of memory etc in order to improve UX.
 
-### Human Factors
-- Psychology to layout and design
+## Human Memory
 
-- Ergonomics: Human Factors
+### Sensory
+o Iconicmemory (vision) 
+
+o Echoicmemory (hearing) 
+
+o Hapticmemory (touch)
+### Short term
+Short-term memory involves largely consciousrecall of information.
+
+
