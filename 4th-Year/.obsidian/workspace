@@ -7,11 +7,8 @@
         "id": "4d2aa6b979b13b24",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Network Security/2.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Security/2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +84,8 @@
   },
   "active": "4d2aa6b979b13b24",
   "lastOpenFiles": [
+    "Network Security/Untitled.md",
+    "Network Security/2.md",
     "Untitled.md",
     "Network Security/1.md",
     "Templates/1 Lecture.md",
@@ -95,8 +93,6 @@
     "Compilation/1.md",
     "FP1/1.md",
     "Templates/Haskell.md",
-    "AI1/1.md",
-    "AI1/Lecture 1.md",
-    "Templates/Lecture.md"
+    "AI1/1.md"
   ]
 }
