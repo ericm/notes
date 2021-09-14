@@ -7,5 +7,13 @@
       ],
       "key": "T"
     }
+  ],
+  "editor:set-heading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
   ]
 }
