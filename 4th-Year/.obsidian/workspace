@@ -57,7 +57,31 @@
   "right": {
     "id": "7dedf68e63710aca",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "849e9c81713f1f2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb64094aff6bf840",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "FP1/2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
