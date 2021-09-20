@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4d2aa6b979b13b24",
+        "id": "631469c158e487df",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Grid Computing/1.md",
+            "file": "AI1/3.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "subscript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,14 +68,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grid Computing/1.md",
+                "file": "AI1/3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4d2aa6b979b13b24",
+  "active": "631469c158e487df",
   "lastOpenFiles": [
+    "AI1/3.md",
+    "AI1/2.md",
+    "subscript.md",
+    "AI1/Untitled.md",
     "Grid Computing/1.md",
     "FP1/2.md",
     "Grid Computing/Untitled.md",
     "Compilation/2.md",
     "capture groups.md",
-    "Compilation/Untitled.md",
-    "AI1/2.md",
-    "AI1/1.md",
-    "AI1/Untitled.md",
-    "FYP/Untitled.md"
+    "Compilation/Untitled.md"
   ]
 }
