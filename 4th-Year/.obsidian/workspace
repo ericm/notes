@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AI1/2.md",
-            "mode": "preview"
+            "file": "AI1/4.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI1/2.md",
+                "file": "AI1/4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "ce5f3fb889c2cd1f",
   "lastOpenFiles": [
+    "AI1/Untitled.md",
     "AI1/2.md",
     "AI1/3.md",
     "FYP/Talk.md",
@@ -96,7 +97,6 @@
     "Network Security/Untitled.md",
     "Compilation/3.md",
     "Untitled Diagram.svg",
-    "Compilation/Untitled.md",
-    "FP1/3.md"
+    "Compilation/Untitled.md"
   ]
 }
