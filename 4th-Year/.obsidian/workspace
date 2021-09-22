@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ce5f3fb889c2cd1f",
+        "id": "60da0da8721c73d6",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -86,8 +86,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ce5f3fb889c2cd1f",
+  "active": "60da0da8721c73d6",
   "lastOpenFiles": [
+    "AI1/4.md",
     "AI1/Untitled.md",
     "AI1/2.md",
     "AI1/3.md",
@@ -96,7 +97,6 @@
     "FP1/Untitled.md",
     "Network Security/Untitled.md",
     "Compilation/3.md",
-    "Untitled Diagram.svg",
-    "Compilation/Untitled.md"
+    "Untitled Diagram.svg"
   ]
 }
