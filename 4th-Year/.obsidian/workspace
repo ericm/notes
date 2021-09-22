@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FYP/Talk.md",
-            "mode": "source"
+            "file": "AI1/2.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FYP/Talk.md",
+                "file": "AI1/2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "ce5f3fb889c2cd1f",
   "lastOpenFiles": [
+    "AI1/2.md",
+    "AI1/3.md",
+    "FYP/Talk.md",
     "FYP/Untitled.md",
     "FP1/Untitled.md",
     "Network Security/Untitled.md",
     "Compilation/3.md",
     "Untitled Diagram.svg",
     "Compilation/Untitled.md",
-    "FP1/3.md",
-    "AI1/3.md",
-    "AI1/2.md",
-    "subscript.md"
+    "FP1/3.md"
   ]
 }
