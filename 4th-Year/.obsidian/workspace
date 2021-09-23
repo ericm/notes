@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "07ce9f558ac0dd95",
+        "id": "49d8a0a26da0b897",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AI1/4.md",
-            "mode": "source"
+            "file": "Grid Computing/2.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mpi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI1/4.md",
+                "file": "Grid Computing/2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "07ce9f558ac0dd95",
+  "active": "49d8a0a26da0b897",
   "lastOpenFiles": [
+    "Grid Computing/2.md",
+    "FYP/Talk.md",
+    "Grid Computing/1.md",
+    "Grid Computing/Untitled.md",
     "AI1/4.md",
     "AI1/3.md",
     "AI1/Untitled.md",
     "AI1/2.md",
-    "FYP/Talk.md",
     "FYP/Untitled.md",
-    "FP1/Untitled.md",
-    "Network Security/Untitled.md",
-    "Compilation/3.md",
-    "Untitled Diagram.svg"
+    "FP1/Untitled.md"
   ]
 }

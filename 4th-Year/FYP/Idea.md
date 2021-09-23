@@ -1,2 +1,0 @@
-# Pandit
-## Introduction
