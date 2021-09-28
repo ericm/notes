@@ -57,7 +57,31 @@
   "right": {
     "id": "7dedf68e63710aca",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "55dc722b485ccbf7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0911c3b13cfd749f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Network Security/5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
