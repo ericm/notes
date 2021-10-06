@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FP1/8.md",
+            "file": "AI1/8.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FP1/8.md",
+                "file": "AI1/8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "9b99146bf793e3ee",
   "lastOpenFiles": [
+    "AI1/Untitled.md",
+    "FP1/8.md",
     "FP1/Untitled.md",
     "Network Security/Untitled.md",
     "Compilation/Untitled.md",
@@ -95,8 +97,6 @@
     "Grid Computing/2.md",
     "Grid Computing/Untitled.md",
     "Compilation/6.md",
-    "Compilation/5.md",
-    "FP1/1.md",
-    "Network Security/5.md"
+    "Compilation/5.md"
   ]
 }
