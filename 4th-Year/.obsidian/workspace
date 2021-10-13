@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FP1/10.md",
-            "mode": "source"
+            "file": "AI1/8.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FP1/10.md",
+                "file": "AI1/8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "9b99146bf793e3ee",
   "lastOpenFiles": [
+    "AI1/8.md",
     "FP1/10.md",
     "FP1/9.md",
     "FP1/Untitled.md",
@@ -96,7 +97,6 @@
     "FP1/5.md",
     "FP1/3.md",
     "Compilation/7.md",
-    "Compilation/9.md",
-    "Compilation/Untitled.md"
+    "Compilation/9.md"
   ]
 }
