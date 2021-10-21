@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AI1/12.md",
+            "file": "Grid Computing/6.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI1/12.md",
+                "file": "Grid Computing/6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "9b99146bf793e3ee",
   "lastOpenFiles": [
+    "Grid Computing/6.md",
     "AI1/12.md",
     "AI1/Untitled Diagram.svg",
     "Compilation/11.md",
@@ -96,7 +97,6 @@
     "AI1/11.md",
     "AI1/10.md",
     "AI1/8.md",
-    "FP1/10.md",
-    "FP1/9.md"
+    "FP1/10.md"
   ]
 }
