@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "AI1/15.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "application",
+                "query": "list",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,14 +89,14 @@
   "active": "f8d7104c7de2dc63",
   "lastOpenFiles": [
     "AI1/15.md",
+    "FP1/13.md",
+    "Grid Computing/7.md",
+    "FP1/3.md",
+    "FP1/2.md",
+    "FP1/1.md",
     "AI1/13.md",
     "FP1/9.md",
     "FP1/11.md",
-    "FP1/5.md",
-    "FP1/7.md",
-    "FP1/8.md",
-    "FP1/14.md",
-    "FP1/12.md",
-    "Compilation/12.md"
+    "FP1/5.md"
   ]
 }
