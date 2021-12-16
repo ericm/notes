@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AI1/2.md",
+            "file": "AI1/3.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI1/2.md",
+                "file": "AI1/3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "f8d7104c7de2dc63",
   "lastOpenFiles": [
+    "AI1/3.md",
     "AI1/2.md",
     "AI1/1.md",
     "AI1/21.md",
@@ -96,7 +97,6 @@
     "AI1/19.md",
     "FP1/17.md",
     "Grid Computing/9.md",
-    "AI1/17.md",
-    "AI1/16.md"
+    "AI1/17.md"
   ]
 }
