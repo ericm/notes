@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AI1/11.md",
+            "file": "AI1/21.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI1/11.md",
+                "file": "AI1/21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f8d7104c7de2dc63",
   "lastOpenFiles": [
+    "AI1/21.md",
+    "AI1/15.md",
+    "AI1/13.md",
     "AI1/11.md",
     "AI1/10.md",
     "AI1/8.md",
     "AI1/2.md",
     "AI1/12.md",
     "AI1/20.md",
-    "AI1/23.md",
-    "AI1/16.md",
-    "AI1/17.md",
-    "AI1/21.md"
+    "AI1/23.md"
   ]
 }
