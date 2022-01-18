@@ -1,4 +1,6 @@
 {
   "vimMode": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "legacyEditor": false,
+  "livePreview": true
 }

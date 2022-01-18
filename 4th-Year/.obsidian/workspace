@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Multimedia Compression/1.md",
-            "mode": "source"
+            "file": "Constraint Programming/1.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multimedia Compression/1.md",
+                "file": "Constraint Programming/1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +89,7 @@
   },
   "active": "f8d7104c7de2dc63",
   "lastOpenFiles": [
+    "Constraint Programming/1.md",
     "Multimedia Compression/1.md",
     "Computer Systems/1.md",
     "conflict-files-obsidian-git.md",
@@ -96,7 +98,6 @@
     "AI1/20.md",
     "AI1/19.md",
     "FP1/17.md",
-    "Grid Computing/9.md",
-    "AI1/17.md"
+    "Grid Computing/9.md"
   ]
 }
