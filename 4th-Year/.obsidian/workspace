@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Computer Systems/9.md",
+            "file": "Multimedia Compression/9.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Systems/9.md",
+                "file": "Multimedia Compression/9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f8d7104c7de2dc63",
   "lastOpenFiles": [
+    "Multimedia Compression/9.md",
     "Computer Systems/9.md",
     "Multimedia Compression/8.md",
     "Multimedia Compression/7.md",
@@ -97,7 +98,6 @@
     "AI2/7.md",
     "Constraint Programming/7.md",
     "Multimedia Compression/3.md",
-    "Computer Systems/7.md",
-    "AI2/5.md"
+    "Computer Systems/7.md"
   ]
 }
