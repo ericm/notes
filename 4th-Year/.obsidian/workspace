@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AI2/17.md",
+            "file": "AI2/19.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI2/17.md",
+                "file": "AI2/19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "f8d7104c7de2dc63",
   "lastOpenFiles": [
+    "AI2/19.md",
+    "Untitled.md",
     "AI2/17.md",
     "Constraint Programming/17.md",
     "AI2/15.md",
@@ -96,8 +98,6 @@
     "AI2/13.md",
     "AI2/12.md",
     "Constraint Programming/13.md",
-    "Constraint Programming/12.md",
-    "Multimedia Compression/12.md",
-    "Constraint Programming/11.md"
+    "Constraint Programming/12.md"
   ]
 }
