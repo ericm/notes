@@ -1,4 +1,4 @@
-# Big O
+# Time Complexity
 b = branching factor
 d = depth of shallowest goal
 
@@ -17,8 +17,16 @@ m = length of the longest path
 
 # Space Complexity
 ## BFS
+- Same as Time.
+## DFS
 - Remove states without successors - reclaim space.
 - Remove states that are confirmed not to have goal.
 - Use space that was just reclaimed - space needed for each layer can be reused when branching factor is constant.
 - O(bm) - (+1) - Worst case.
-- 
+- O(bd) - Best case
+
+# Least Cost
+- Cheapest comes off agenda - priority queue.
+## Time + Space
+- Worst case O(b^m) 
+- Best case O(b^d)
