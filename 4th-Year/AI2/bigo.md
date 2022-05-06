@@ -1,21 +1,39 @@
+# Completeness
+- Will guarantee a solution
+- DFS is not.
+- BFS is - infinite loops will not be visited.
+
+# Optimality
+- Does it guarantee to find shortest path.
+- BFS goes level by level, worse case is b^d+1, will be optimal. YES.
+- DFS is not.
+
+# Admissability
 # State Space algo
 - Remove from agenda
 - Insert successors into agenda
 - State space = all states available from the search tree.
 - Visits in state space = search tree.
-- 
+- Re-exploration - can visit states more than one
+	- Avoid any succ that is curr nodes parent: doesnt solved if not parent loop
+		- Doesnt solve reexp
+	- Avoid same node in curr path: doesnt solve reexp in all probs
+	- Avoid previously visitied nodes: expensive space complexity.
+- Cycles: May have a cycle if keep going depth first.
 
 # Time Complexity
 b = branching factor
 d = depth of shallowest goal
 
 ## BFS
+- Queue agenda.
 - Only found goal when popped off agenda
 - Popped off when children are being generated.
 - O(b^(d+1)) - Worse case
 - O(b^d) - Best case
 
 ## DFS
+- Stack
 m = length of the longest path
 - Suceptipal to cycles so m has to assume there is no cycles :/
 - Will go down until depth m for each path.
@@ -37,3 +55,12 @@ m = length of the longest path
 ## Time + Space
 - Worst case O(b^m) 
 - Best case O(b^d)
+
+# Least Cost
+- Priority Ordered Que, In order of path cost full path.
+- Not complete - Path may look cheaper, extend it infinitely.
+- Complete if action costs are positive.
+- Optimal - Always extend cheapest path
+
+# Informed
+## Greedy
