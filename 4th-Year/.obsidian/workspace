@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AI2/2.md",
+            "file": "AI2/3.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI2/2.md",
+                "file": "AI2/3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "f8d7104c7de2dc63",
   "lastOpenFiles": [
+    "AI2/3.md",
     "AI2/2.md",
     "AI2/1.md",
     "AI2/recs.md",
@@ -98,7 +99,6 @@
     "AI2/7.md",
     "Untitled.md",
     "AI2/5.md",
-    "AI2/19.md",
-    "AI2/15.md"
+    "AI2/19.md"
   ]
 }
