@@ -1,3 +1,10 @@
+# State Space algo
+- Remove from agenda
+- Insert successors into agenda
+- State space = all states available from the search tree.
+- Visits in state space = search tree.
+- 
+
 # Time Complexity
 b = branching factor
 d = depth of shallowest goal

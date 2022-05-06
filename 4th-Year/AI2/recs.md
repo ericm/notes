@@ -54,3 +54,10 @@ Top average - IMBD tier list.
 # Context-Aware
 - Pre-filter irrelevant.
 - Post-filter unsuitable
+# Sequence-Aware
+- Actions grouped into sessions
+- NN, associated, embeddings learned form sessions.
+### Converstational
+### Casual Inference
+- Observational: predict y given x.
+- Interventional Predict user rating given we recommended that item, use in future to tune.
