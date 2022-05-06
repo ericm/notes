@@ -8,16 +8,19 @@ Top average - IMBD tier list.
 - Engineer joy!
 - Items are interacted with.
 - Features: defined by domain expert: categories, keywords.
-- Users: vector U. Features: age, sex.
+- Cut down based on features.
+### Content-based
 - User-Item Interactions. UxI = R
 - Sparsity - hard to find similar rows 1-(entries/uxI)
 - Cold-start - items: no ratings - users.
+- Collaborative Filtering / Content-based filtering
 # Scoring
 - Domaim-specific
 - Q: feature dim d: d x I - item features
 - P: U x d - User interest in features
 - Similarity is Pu x Qu.
 - Collaborative Filtering 
+- Users: vector U. Features: age, sex.
 ### User based nearest neighbours
 - Cosine similarity pearson correlation.
 - Mean of neighbours ratings of i.
@@ -37,6 +40,9 @@ Top average - IMBD tier list.
 - Learn how much each feature is represented over time in Q items via SGD.
 - Matrix completion.
 - Learning embeddings takes time
+### Cold Start
+- Content-based ensemble with matrix factorisation. Content based for cold start.
+- Content-based is personalised.
 # Top-N recommendation
 ### Diversity
 -  Require min distance between top N

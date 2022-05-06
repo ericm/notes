@@ -64,3 +64,14 @@ m = length of the longest path
 
 # Informed
 ## Greedy
+- Not complete - heuristic doesnt accumulate.
+- Optimal - if heuristic is misleading, no
+## A*
+- Most promising code according to heuristic is always expanded. Like Least cost except uses heur. If heuristic is admissable, it will always under-estimate and never over estimate.
+- How much it will cost to get here + heuristic.
+- Yes complete,
+- Is optimal if heuristic is admissable, due to heuristic never overestimating.
+
+# Comparing heuristics
+- Find if one is admissable.
+- Difference between estimates and actual costs.
