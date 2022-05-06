@@ -36,7 +36,7 @@ Top average - IMBD tier list.
 - vector P - row for each user columns d.
 - vector Q - column for each item - row d.
 - ^rui = PuQi.
-- Latent features - learning embeddings
+ Latent features - learning embeddings
 - Learn how much each feature is represented over time in Q items via SGD.
 - Matrix completion.
 - Learning embeddings takes time
