@@ -25,7 +25,7 @@ m = length of the longest path
 - O(bm) - (+1) - Worst case.
 - O(bd) - Best case
 
-# Least Cost
+# Least Cost, Greedy, A*
 - Cheapest comes off agenda - priority queue.
 ## Time + Space
 - Worst case O(b^m) 

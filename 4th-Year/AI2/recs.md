@@ -40,4 +40,17 @@ Top average - IMBD tier list.
 # Top-N recommendation
 ### Diversity
 -  Require min distance between top N
-- Greedy re-ranking: 
+- Greedy re-ranking: select N that achieve best balance between relevance and diver
+## Serendipity
+- Pleasure
+## Novelity
+- Non-popular
+## Diversity
+- Different tastes
+
+# Prediction
+- Implicit: clicked/dload/purchase
+- Not easy to infer negative opinions
+# Context-Aware
+- Pre-filter irrelevant.
+- Post-filter unsuitable
