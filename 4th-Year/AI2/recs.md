@@ -12,5 +12,9 @@
 - Q: feature dim d: d x I - item features
 - P: U x d - User interest in features
 - Similarity is Pu x Qu.
-- R
+- Collaborative Filtering 
+### User based nearest neighbours
+- Cosine similarity pearson correlation.
+- 
+### Matrix factorisation
 # Top-N recommendation
