@@ -1,6 +1,8 @@
 - AC3
 - AC2001
 - AC5
+- Conflict-Directed Backjumo - CBJ
 - Node consistency - unary constraints - domain
 - Bounds consistency - integrer variables by their lower and upper bounds
-- AC1 - 
+- AC1 - Go through all C + Inverse c
+- 
