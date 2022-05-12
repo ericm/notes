@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Constraint Programming/11.md",
+            "file": "Constraint Programming/Revise.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Constraint Programming/11.md",
+                "file": "Constraint Programming/Revise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f8d7104c7de2dc63",
   "lastOpenFiles": [
+    "Constraint Programming/Revise.md",
     "Constraint Programming/11.md",
     "Constraint Programming/9.md",
     "Constraint Programming/7.md",
@@ -97,7 +98,6 @@
     "Computer Systems/5.md",
     "Computer Systems/3.md",
     "Constraint Programming/5.md",
-    "Constraint Programming/3.md",
-    "Constraint Programming/17.md"
+    "Constraint Programming/3.md"
   ]
 }

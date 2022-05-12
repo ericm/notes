@@ -1,0 +1,6 @@
+- AC3
+- AC2001
+- AC5
+- Node consistency - unary constraints - domain
+- Bounds consistency - integrer variables by their lower and upper bounds
+- AC1 - 
