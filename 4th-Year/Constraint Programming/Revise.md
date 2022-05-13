@@ -5,4 +5,4 @@
 - Node consistency - unary constraints - domain
 - Bounds consistency - integrer variables by their lower and upper bounds
 - AC1 - Go through all C + Inverse c
-- 
+- maximum matching - all different - can have m-augmenting path.
